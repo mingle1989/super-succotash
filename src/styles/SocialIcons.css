@@ -1,0 +1,43 @@
+.mobile__logo {
+	position: fixed;
+	width: 20%;
+	top: 0.25rem;
+	left: 0.25rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	z-index: 11;
+	cursor: pointer;
+}
+.social__icons {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	width: 80%;
+	position: fixed;
+	top: 0.25rem;
+	right: 0.5rem;
+	z-index: 10;
+}
+.social__icon {
+	display: flex;
+	align-items: center;
+	font-size: var(--fs-600);
+	color: var(--white);
+	margin: 1rem;
+	transition: all var(--transition-speed) ease;
+}
+.social__link {
+	border-radius: 10px;
+}
+.social__link:hover .social__icon {
+	background: transparent;
+	color: var(--medium-sea-green);
+}
+/***** MEDIA QUERIES *****/
+/* MIN-width: 769px */
+@media only screen and (min-width: 769px) {
+	.mobile__logo {
+		display: none;
+	}
+}

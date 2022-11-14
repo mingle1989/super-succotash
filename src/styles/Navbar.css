@@ -1,0 +1,147 @@
+.navbar {
+	position: fixed;
+	background-color: var(--black);
+	transition: width var(--transition-speed) ease;
+	overflow: hidden;
+	border-radius: 0px 30px 30px 0px;
+	z-index: 10;
+}
+/* Navbar ul */
+.navbar__nav {
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+}
+/* Nav Item li*/
+.nav__item {
+	width: 100%;
+	transition: all var(--transition-speed) ease;
+}
+.nav__item:last-child {
+	margin-top: auto;
+}
+.nav__item a {
+	transition: all var(--transition-speed) ease;
+}
+.nav__item a:hover,
+.nav__item a:focus {
+	background: var(--dark-bg) !important;
+	color: var(--medium-sea-green) !important;
+}
+.nav__item a:hover svg,
+.nav__item a:focus svg {
+	color: var(--medium-sea-green) !important;
+}
+.nav__item .active {
+	background: var(--dark-bg);
+	color: var(--medium-sea-green);
+}
+.nav__item .active svg {
+	color: var(--medium-sea-green);
+}
+/* Nav Links a */
+.nav__link {
+	display: flex;
+	align-items: center;
+	height: 5rem;
+	color: var(--white);
+	transition: all var(--transition-speed) ease;
+}
+/* Link Text */
+.link__text {
+	display: none;
+	margin-left: 1rem;
+	font-size: var(--fs-500);
+	font-weight: bold;
+}
+/* Nav Icons */
+.nav__link svg {
+	width: 2rem;
+	min-width: 2rem;
+	margin: 0 1.5rem;
+	font-size: 2rem;
+	color: var(--white);
+	transition: all var(--transition-speed) ease-in-out;
+}
+/* Logo */
+.logo {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.logo__text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'BasementGrotesque-Black';
+	font-size: var(--fs-600);
+	line-height: 1;
+	letter-spacing: 1px;
+	margin-top: 0.5rem;
+	left: -999px;
+	transition: all var(--transition-speed) ease;
+	background: linear-gradient(
+		to bottom,
+		var(--aquamarine) 0%,
+		var(--lavender-gray) 30%,
+		var(--medium-sea-green) 80%
+	);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.logo .logo__img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0.5rem;
+	margin-right: 0.25rem;
+	transform: rotate(0deg);
+	transition: all var(--transition-speed) ease;
+}
+.navbar:hover .logo .logo__img {
+	transform: rotate(360deg);
+}
+/**** MEDIA QUERIES *****/
+/* MAX-width: 768px */
+@media only screen and (max-width: 768px) {
+	/* Navbar */
+	.navbar,
+	.logo,
+	.navbar__nav,
+	.nav__link {
+		display: none;
+	}
+}
+/***** MIN-width: 769px *****/
+@media only screen and (min-width: 769px) {
+	.navbar {
+		top: 0;
+		width: 5rem;
+		height: 100vh;
+	}
+	.navbar:hover {
+		width: 16rem;
+	}
+	.navbar:hover .link__text {
+		display: inline;
+	}
+	.navbar:hover .logo .logo__img {
+		margin-left: 10rem;
+	}
+	.navbar:hover .logo__text {
+		left: 0px;
+	}
+	.navbar__nav li:nth-child(2) {
+		margin-top: 2.5rem;
+	}
+}
+/***** END MEDIA QUERIES *****/
