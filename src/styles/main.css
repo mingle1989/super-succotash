@@ -150,6 +150,3 @@ h5,
 h6 {
 	font-family: var(--heading-font);
 }
-h1 {
-	font-size: var(--fs-xl);
-}
