@@ -20,14 +20,17 @@ const Hero = () => {
 		<div className="text-center flex justify-center items-center flex-col h-screen">
 			<BackgroundCircles />
 			<img
-				className="relative w-[200px] h-[176px] mx-auto object-cover"
-				src={images.Server}
-				alt="server"
+				className="relative w-48 h-48 rounded-full mx-auto object-cover"
+				src={images.MeImg}
+				alt="self-image"
 			/>
-			<h1>
-				<span>{text}</span>
-				<Cursor cursorColor="#08b57b" />
-			</h1>
+			<div>
+				<h2>Full stack developer</h2>
+				<h1>
+					<span>{text}</span>
+					<Cursor cursorColor="#08b57b" />
+				</h1>
+			</div>
 		</div>
 	);
 };
