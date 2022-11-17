@@ -17,9 +17,9 @@ function BackgroundCircles() {
 		>
 			<div className="mt-80 absolute border border-[#333333] rounded-full h-[200px] w-[200px] animate-ping" />
 			<div className="mt-80 absolute border border-[#333333] rounded-full h-[300px] w-[300px]" />
-			<div className="mt-80 absolute border border-[#333333] rounded-full h-[500px] w-[500px]" />
+			<div className="mt-80 absolute border border-[#242424] rounded-full h-[500px] w-[500px]" />
 			<div className="mt-80 absolute border border-[#08b57b] rounded-full opacity-20 w-[650px] h-[650px] animate-pulse" />
-			<div className="mt-80 absolute border border-[#333333] rounded-full w-[800px] h-[800px]" />
+			<div className="mt-80 absolute border border-[#242424] rounded-full w-[800px] h-[800px]" />
 		</motion.div>
 	);
 }

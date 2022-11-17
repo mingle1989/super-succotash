@@ -18,7 +18,7 @@ const MobileNavbar = () => {
 		visible: {
 			y: 0,
 			opacity: 1,
-			transition: { type: 'tween', duration: '0.8' },
+			transition: { type: 'tween', duration: '1.25' },
 		},
 	};
 	return (

@@ -22,7 +22,7 @@ const Navbar = () => {
 			opacity: 1,
 			transition: {
 				type: 'tween',
-				duration: 0.8,
+				duration: 1.25,
 			},
 		},
 	};

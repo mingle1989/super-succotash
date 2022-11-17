@@ -150,3 +150,18 @@ h5,
 h6 {
 	font-family: var(--heading-font);
 }
+.poppins {
+	font-family: var(--body-font);
+}
+.btn-1 {
+	margin-right: 1rem;
+}
+.btn-2 {
+	margin-left: 1rem;
+}
+/* MEDIA QUERIES */
+@media only screen and (min-width: 769px) {
+	.desktop__margin {
+		margin-left: 5rem;
+	}
+}

@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 // Images
 import images from '../../../assets/images/index';
 // Icons
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 // Social icons stylesheet
 import '../../../styles/SocialIcons.css';
 
@@ -18,7 +18,7 @@ const SocialIcons = () => {
 		visible: {
 			x: 0,
 			opacity: 1,
-			transition: { type: 'tween', duration: '0.8' },
+			transition: { type: 'tween', duration: '1.25' },
 		},
 	};
 
@@ -30,7 +30,7 @@ const SocialIcons = () => {
 		visible: {
 			x: 0,
 			opacity: 1,
-			transition: { type: 'tween', duration: '0.8' },
+			transition: { type: 'tween', duration: '1.25' },
 		},
 	};
 
@@ -70,15 +70,14 @@ const SocialIcons = () => {
 				>
 					<FaLinkedin className="social__icon" />
 				</a>
-				<a
+				<Link
 					className="social__link"
-					href="https://twitter.com/minglexM"
+					to="contact"
 					target="_blank"
-					title="Twitter"
-					rel="noopener noreferrer"
+					title="Contact"
 				>
-					<FaTwitter className="social__icon" />
-				</a>
+					<FaEnvelope className="social__icon" />
+				</Link>
 			</motion.div>
 		</>
 	);
