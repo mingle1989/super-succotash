@@ -13,13 +13,13 @@ function BackgroundCircles() {
 				borderRadius: ['20%', '20%', '50%', '80%', '20%'],
 			}}
 			transition={{ duration: 2.5 }}
-			className="relative flex justify-center items-center"
+			className="relative flex justify-center items-center mt-20"
 		>
-			<div className="mt-80 absolute border border-[#333333] rounded-full h-[200px] w-[200px] animate-ping" />
-			<div className="mt-80 absolute border border-[#333333] rounded-full h-[300px] w-[300px]" />
-			<div className="mt-80 absolute border border-[#242424] rounded-full h-[500px] w-[500px]" />
-			<div className="mt-80 absolute border border-[#08b57b] rounded-full opacity-20 w-[650px] h-[650px] animate-pulse" />
-			<div className="mt-80 absolute border border-[#242424] rounded-full w-[800px] h-[800px]" />
+			<div className="mt-80 lg:mt-96 absolute border border-[#7c7d7e] rounded-full h-[200px] w-[200px] animate-ping" />
+			<div className="mt-80 lg:mt-96 absolute border border-[#7c7d7e]/20 rounded-full h-[300px] w-[300px]" />
+			<div className="mt-80 lg:mt-96 absolute border border-[#7c7d7e]/10 rounded-full h-[500px] w-[500px]" />
+			<div className="mt-80 lg:mt-96 absolute border border-[#08b57b] rounded-full opacity-20 w-[650px] h-[650px] animate-pulse" />
+			<div className="mt-80 lg:mt-96 absolute border border-[#7c7d7e]/10 rounded-full w-[800px] h-[800px]" />
 		</motion.div>
 	);
 }
