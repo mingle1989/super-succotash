@@ -1,10 +1,12 @@
+// Framer motion
+import { motion } from 'framer-motion';
+// React scroll
+import { Link } from 'react-scroll';
 // Background circles
 import BackgroundCircles from '../BackgroundCircles/BackgroundCircles';
-// import {motion} from 'framer-motion';
-import { Link } from 'react-scroll';
 // React simple typewriter
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
-// images
+// Images
 import images from '../../assets/images/index';
 
 const Hero = () => {
@@ -18,12 +20,12 @@ const Hero = () => {
 		delaySpeed: 2000,
 	});
 	return (
-		<div className="text-center flex justify-center items-center flex-col h-screen space-y-8 desktop__margin">
+		<motion.div className="text-center flex justify-center items-center flex-col h-screen space-y-8 desktop__margin">
 			<BackgroundCircles />
 			<img
-				className="relative w-48 h-48 rounded-full mx-auto object-cover"
-				src={images.MeImg}
-				alt="self-image"
+				className="relative w-48 h-48 mx-auto object-fill"
+				src={images.Server}
+				alt="servers"
 			/>
 			<div>
 				<h2 className="poppins text-sm lg:text-lg uppercase text-gray-500 pb-2 tracking-[15px]">
@@ -43,7 +45,7 @@ const Hero = () => {
 					</Link>
 				</div>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
