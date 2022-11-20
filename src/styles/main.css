@@ -150,6 +150,13 @@ h5,
 h6 {
 	font-family: var(--heading-font);
 }
+.text__gradient {
+	background: -webkit-linear-gradient(#7c7d7e, #99ffd8);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	z-index: 0;
+}
 .poppins {
 	font-family: var(--body-font);
 }
