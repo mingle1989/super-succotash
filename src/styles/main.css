@@ -150,6 +150,7 @@ h5,
 h6 {
 	font-family: var(--heading-font);
 }
+/* Heading Gradient */
 .text__gradient {
 	background: -webkit-linear-gradient(#7c7d7e, #99ffd8);
 	background-clip: text;
@@ -157,17 +158,13 @@ h6 {
 	-webkit-text-fill-color: transparent;
 	z-index: 0;
 }
+/* Poppins Class */
 .poppins {
 	font-family: var(--body-font);
 }
+/* Basement Grotesque Class */
 .grotesque {
 	font-family: var(--heading-font);
-}
-.btn-1 {
-	margin-right: 1rem;
-}
-.btn-2 {
-	margin-left: 1rem;
 }
 /* MEDIA QUERIES */
 @media only screen and (min-width: 769px) {

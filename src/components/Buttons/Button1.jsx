@@ -1,0 +1,16 @@
+import React from 'react';
+import { FaCode } from 'react-icons/fa';
+import '../../styles/Buttons.css';
+
+const Button1 = () => {
+	return (
+		<button>
+			<div className="button button-1 flex items-center justify-center">
+				<FaCode className="mr-2" />
+				<span>See Work</span>
+			</div>
+		</button>
+	);
+};
+
+export default Button1;

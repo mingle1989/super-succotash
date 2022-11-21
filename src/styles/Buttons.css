@@ -1,0 +1,31 @@
+/* Base Button Styles */
+.button {
+	width: 170px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	color: var(--white);
+	text-transform: uppercase;
+	font-weight: 600;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	display: inline-block;
+}
+/* Button1, Button2 */
+.button-1,
+.button-2 {
+	background-color: rgba(36, 36, 36, 0.8);
+	border: 3px solid var(--aquamarine);
+	border-radius: 60px;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	color: var(--white);
+}
+/* Button1, Button2 Hover */
+.button-1:hover,
+.button-2:hover {
+	background-color: var(--black);
+	box-shadow: 0 0 10px 0 var(--aquamarine) inset, 0 0 20px 2px var(--aquamarine);
+	border: 3px solid var(--aquamarine);
+}

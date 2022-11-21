@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import BackgroundCircles from '../BackgroundCircles/BackgroundCircles';
 // React scroll
 import { Link } from 'react-scroll';
+// Buttons
+import Buttons from '../Buttons/Buttons';
 // React simple typewriter
 import { Cursor, useTypewriter } from 'react-simple-typewriter';
 // Images
@@ -11,7 +13,7 @@ import images from '../../assets/images/index';
 
 const Hero = () => {
 	const [text, count] = useTypewriter({
-		words: ['I am Jordan Mingle.', 'Coder. Designer.', 'And problem solver.'],
+		words: ['I am Jordan Mingle.', 'Coder. Designer.', 'Problem solver.'],
 		loop: true,
 		delaySpeed: 2000,
 	});
@@ -46,11 +48,11 @@ const Hero = () => {
 				/>
 
 				<div className="pt-5">
-					<Link to="works" spy={true} className="btn-1">
-						<button className="hero__button">Works</button>
+					<Link to="works" spy={true} className="mr-4">
+						<Buttons.Button1 />
 					</Link>
-					<Link to="experience" spy={true} className="btn-2">
-						<button className="hero__button">Experience</button>
+					<Link to="experience" spy={true} className="ml-4">
+						<Buttons.Button2 />
 					</Link>
 				</div>
 			</div>
