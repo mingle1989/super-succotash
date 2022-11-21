@@ -7,7 +7,7 @@ const Button1 = () => {
 		<button>
 			<div className="button button-1 flex items-center justify-center">
 				<FaCode className="mr-2" />
-				<span>See Work</span>
+				<span>Recent Work</span>
 			</div>
 		</button>
 	);

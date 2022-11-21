@@ -167,8 +167,21 @@ h6 {
 	font-family: var(--heading-font);
 }
 /* MEDIA QUERIES */
+/* MAX-Width: 768px */
+@media only screen and (max-width: 768px) {
+	.content__margin {
+		margin-bottom: 5rem;
+	}
+	.content__margin__up {
+		margin-top: -5rem;
+	}
+}
+/* MIN-Width: 769px */
 @media only screen and (min-width: 769px) {
-	.desktop__margin {
+	.content__margin {
 		margin-left: 5rem;
+	}
+	.content__margin__up {
+		margin-top: -2rem;
 	}
 }
