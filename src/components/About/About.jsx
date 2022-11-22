@@ -9,7 +9,12 @@ import images from '../../assets/images/index';
 
 const About = () => {
 	return (
-		<div className="flex flex-col relative h-screen text-center md:flex-row max-w-5xl px-10 justify-evenly mx-auto items-center">
+		<motion.div
+			initial={{ y: 10, opacity: 0 }}
+			whileInView={{ y: 0, opacity: 1 }}
+			transition={{ duration: 1.5 }}
+			className="flex flex-col relative h-screen text-center md:flex-row max-w-5xl px-10 justify-evenly mx-auto items-center"
+		>
 			<h3 className="absolute top-24 uppercase tracking-[10px] text-white text-2xl md:ml-20">
 				About
 			</h3>
@@ -38,8 +43,13 @@ const About = () => {
 					<span className="underline decoration-[#08b57b]">little</span>{' '}
 					background
 				</h4>
+				<p className="text-base">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam
+					enim reiciendis ullam delectus itaque dolores veniam esse beatae
+					nulla.
+				</p>
 			</div>
-		</div>
+		</motion.div>
 	);
 };
 
