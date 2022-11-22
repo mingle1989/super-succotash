@@ -1,5 +1,8 @@
+// React
 import React from 'react';
+// Experience Icon
 import { FaHistory } from 'react-icons/fa';
+// Buttons Stylesheet
 import '../../styles/Buttons.css';
 
 const Button2 = () => {
