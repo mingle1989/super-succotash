@@ -17,8 +17,8 @@
 .button-2,
 .button-3 {
 	background-color: rgba(36, 36, 36, 0.8);
-	border: 3px solid var(--aquamarine);
-	border-radius: 60px;
+	border: 2px solid var(--aquamarine);
+	border-radius: 30px;
 	-webkit-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	color: var(--white);
@@ -29,5 +29,5 @@
 .button-3:hover {
 	background-color: var(--black);
 	box-shadow: 0 0 10px 0 var(--aquamarine) inset, 0 0 20px 2px var(--aquamarine);
-	border: 3px solid var(--aquamarine);
+	border: 2px solid var(--aquamarine);
 }

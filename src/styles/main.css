@@ -175,6 +175,10 @@ h6 {
 	.content__margin__up {
 		margin-top: -5rem;
 	}
+	.responsive-image {
+		max-width: 80%;
+		height: auto;
+	}
 }
 /* MIN-Width: 769px */
 @media only screen and (min-width: 769px) {

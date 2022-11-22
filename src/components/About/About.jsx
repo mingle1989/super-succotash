@@ -13,7 +13,7 @@ const About = () => {
 			initial={{ y: 10, opacity: 0 }}
 			whileInView={{ y: 0, opacity: 1 }}
 			transition={{ duration: 1.5 }}
-			className="flex flex-col relative h-screen text-center md:flex-row max-w-5xl px-10 justify-evenly mx-auto items-center"
+			className="flex flex-col relative h-screen text-center lg:flex-row max-w-5xl px-10 justify-evenly mx-auto items-center"
 		>
 			<h3 className="absolute top-24 uppercase tracking-[10px] text-white text-2xl md:ml-20">
 				About
@@ -33,7 +33,7 @@ const About = () => {
 				src={images.AboutImg}
 				width={376}
 				height={319}
-				className="-mb-20 md:mb-0 md:ml-20 flex-shrink-0 object-cover"
+				className="-mb-20 md:mb-0 md:ml-20 flex-shrink-0 object-cover responsive-image"
 				alt="about"
 			/>
 
