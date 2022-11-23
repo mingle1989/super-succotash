@@ -26,7 +26,7 @@ const Hero = () => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ duration: 1.5 }}
-						className="text-base lg:text-lg uppercase text-[#ffffff] pb-5 tracking-[10px] text-center font-bold"
+						className="text-base lg:text-xl uppercase text-[#ffffff] pb-5 tracking-[10px] text-center font-bold"
 					>
 						Full stack developer
 					</motion.h2>

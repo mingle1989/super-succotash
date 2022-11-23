@@ -42,9 +42,9 @@ const SocialIcons = () => {
 				animate="visible"
 				className="mobile__logo"
 			>
-				<Link to="/">
+				<a href="/">
 					<img src={images.Logo} width={75} height={75} alt="logo" />
-				</Link>
+				</a>
 			</motion.div>
 			<motion.div
 				variants={socialVariants}
