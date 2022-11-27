@@ -7,7 +7,7 @@ import images from '../../assets/images';
 
 const ExperienceCard = () => {
 	return (
-		<article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#242424] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
+		<article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#242424] hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-x-hidden pt-4 pb-4">
 			<motion.img
 				initial={{ y: -100, opacity: 0 }}
 				whileInView={{ y: 0, opacity: 1 }}
@@ -18,9 +18,9 @@ const ExperienceCard = () => {
 			/>
 
 			<div className="px-0 md:px-10">
-				<h4 className="text-4xl font-light">CEO of DEVTHUNDER</h4>
-				<p className="font-bold text-2xl mt-1">Dev Thunder</p>
-				<div className="flex space-x-2 my-2">
+				<h4 className="text-xl font-light">CEO of DEVTHUNDER</h4>
+				<p className="font-bold text-lg mt-1">Dev Thunder</p>
+				<div className="flex space-x-2 my-2 justify-center">
 					<img
 						className="w-10 h-10 rounded-full"
 						src={images.JavaScript}
@@ -41,7 +41,7 @@ const ExperienceCard = () => {
 					Started work... - Ended...
 				</p>
 
-				<ul className="list-disc space-y-4 ml-5 text-lg">
+				<ul className="list-disc space-y-4 ml-5 text-base">
 					<li>Summary points</li>
 					<li>Summary points</li>
 					<li>Summary points</li>
