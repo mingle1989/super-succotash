@@ -12,13 +12,18 @@ import { Cursor, useTypewriter } from 'react-simple-typewriter';
 import images from '../../assets/images/index';
 
 const Hero = () => {
-	const [text, count] = useTypewriter({
+	const [text] = useTypewriter({
 		words: ['I am Jordan Mingle.', 'Coder. Designer.', 'Problem solver.'],
 		loop: true,
 		delaySpeed: 2000,
 	});
 	return (
-		<motion.div className="text-center flex justify-center items-center flex-col h-screen space-y-8 content__margin w-full overflow-hidden">
+		<motion.div
+			initial={{ y: 10, opacity: 0 }}
+			whileInView={{ y: 0, opacity: 1 }}
+			transition={{ duration: 1.5 }}
+			className="text-center flex justify-center items-center flex-col h-screen space-y-8 content__margin w-full overflow-hidden"
+		>
 			<div>
 				<BackgroundCircles />
 				<div>
@@ -26,7 +31,7 @@ const Hero = () => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ duration: 1.5 }}
-						className="text-base lg:text-xl uppercase text-[#ffffff] pb-5 tracking-[10px] text-center font-bold"
+						className="text-base lg:text-xl uppercase text-white pb-5 tracking-[10px] text-center font-bold"
 					>
 						Full stack developer
 					</motion.h2>
@@ -34,7 +39,7 @@ const Hero = () => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ duration: 1.75 }}
-						className="text-3xl md:text-4xl lg:text-6xl font-bold px-10"
+						className="text-2xl md:text-4xl lg:text-6xl font-bold px-10"
 					>
 						<span className="mr-3 text__gradient">{text}</span>
 						<Cursor cursorColor="#08b57b" />

@@ -37,17 +37,10 @@ const About = () => {
 					className="pt-8 md:mb-0 md:ml-20 flex-shrink-0 object-cover about__img about__img__order"
 					alt="about"
 				/>
-				<div className="space-y-4 px-0 md:px-10 md:ml-20">
-					<h4 className="text-xl lg:text-3xl font-semibold">
-						Here is a{' '}
-						<span className="underline decoration-[#08b57b]">little</span>{' '}
-						background
-					</h4>
-					<p className="text-base poppins">
-						In a past life, I was a computer technician. Currently, my focus is
-						building responsive full stack websites and apps.
+				<div className="space-y-4 px-0 md:px-10 md:ml-20 lg:text-left">
+					<p className="text-base lg:text-xl poppins font-bold pb-4">
+						I create scalable, performant, responsive websites and mobile apps.
 					</p>
-					<br />
 					<Button3 />
 				</div>
 			</div>
