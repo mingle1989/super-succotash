@@ -53,7 +53,7 @@ const Hero = () => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ duration: 1.5 }}
-						className="relative mt-5 w-[376px] h-[319px] mx-auto object-fill responsive-image"
+						className="relative mt-5 w-[376px] h-[319px] mx-auto object-fill hero__img"
 						src={images.Server}
 						alt="servers"
 					/>

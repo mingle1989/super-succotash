@@ -151,9 +151,16 @@ h5,
 h6 {
 	font-family: var(--heading-font);
 }
-/* Heading Gradient */
+/* Heading Gradients */
 .text__gradient {
 	background: -webkit-linear-gradient(#7c7d7e, #99ffd8);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	z-index: 0;
+}
+.text__gradient__2 {
+	background: -webkit-linear-gradient(#ffffff, #08b57b);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -181,21 +188,26 @@ h6 {
 	.content__margin__up {
 		margin-top: -5rem;
 	}
-	.responsive-image {
+	.hero__img,
+	.about__img {
 		max-width: 80%;
 		height: auto;
 	}
 }
 /* MAX-Width: 600px */
 @media only screen and (max-width: 600px) {
-	.responsive-image {
+	.hero__img,
+	.about__img {
 		max-width: 70%;
 	}
 }
 /* MAX-Width: 375px */
 @media only screen and (max-width: 375px) {
-	.responsive-image {
+	.hero__img {
 		max-width: 50%;
+	}
+	.about__img {
+		max-width: 60%;
 	}
 }
 /* MIN-Width: 769px */

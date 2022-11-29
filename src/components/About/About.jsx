@@ -15,7 +15,7 @@ const About = () => {
 			transition={{ duration: 1.5 }}
 			className="flex flex-col relative h-screen text-center max-w-5xl px-10 justify-evenly mx-auto items-center"
 		>
-			<h3 className="absolute top-24 uppercase tracking-[10px] text-white text-base lg:text-xl md:ml-20">
+			<h3 className="absolute top-24 uppercase tracking-[10px] text-white text-base lg:text-xl text__gradient__2 md:ml-20">
 				About
 			</h3>
 
@@ -34,20 +34,20 @@ const About = () => {
 					src={images.AboutImg}
 					width={376}
 					height={319}
-					className="pt-8 md:mb-0 md:ml-20 flex-shrink-0 object-cover responsive-image about__img__order"
+					className="pt-8 md:mb-0 md:ml-20 flex-shrink-0 object-cover about__img about__img__order"
 					alt="about"
 				/>
 				<div className="space-y-4 px-0 md:px-10 md:ml-20">
-					<h4 className="text-2xl lg:text-4xl font-semibold">
+					<h4 className="text-xl lg:text-3xl font-semibold">
 						Here is a{' '}
 						<span className="underline decoration-[#08b57b]">little</span>{' '}
 						background
 					</h4>
 					<p className="text-base poppins">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magnam
-						enim reiciendis ullam delectus itaque dolores veniam esse beatae
-						nulla.
+						In a past life, I was a computer technician. Currently, my focus is
+						building responsive full stack websites and apps.
 					</p>
+					<br />
 					<Button3 />
 				</div>
 			</div>

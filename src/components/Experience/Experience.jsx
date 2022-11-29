@@ -13,7 +13,7 @@ const Experience = () => {
 			transition={{ duration: 1.5 }}
 			className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-full sm:max-w-[95%] px-10 justify-evenly mx-auto items-center content__margin overflow-hidden"
 		>
-			<h3 className="absolute top-24 pt-8 uppercase tracking-[10px] text-white text-base lg:text-xl md:ml-20">
+			<h3 className="absolute top-24 uppercase tracking-[10px] text-white text-base lg:text-xl text__gradient__2 md:ml-20">
 				Experience
 			</h3>
 
