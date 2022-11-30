@@ -1,11 +1,11 @@
-import Button1 from './Button1';
-import Button2 from './Button2';
-import Button3 from './Button3';
+import ExperienceButton from './ExperienceButton';
+import RecentWork from './RecentWork';
+import ResumeButton from './ResumeButton';
 
 const Buttons = {
-	Button1,
-	Button2,
-	Button3,
+	RecentWork,
+	ExperienceButton,
+	ResumeButton,
 };
 
 export default Buttons;

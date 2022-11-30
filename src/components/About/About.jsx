@@ -5,7 +5,7 @@ import React from 'react';
 // Images
 import images from '../../assets/images/index';
 // Button
-import Button3 from '../Buttons/Button3';
+import ResumeButton from '../Buttons/ResumeButton';
 
 const About = () => {
 	return (
@@ -38,10 +38,13 @@ const About = () => {
 					alt="about"
 				/>
 				<div className="space-y-4 px-0 md:px-10 md:ml-20 lg:text-left">
-					<p className="text-base lg:text-xl poppins font-bold pb-4">
+					<h4 className="uppercase underline">My Passion</h4>
+					<p className="text-lg lg:text-2xl poppins font-bold pb-4 lg:pb-8">
 						I create scalable, performant, responsive websites and mobile apps.
 					</p>
-					<Button3 />
+					<a href="/assets/resume/sample.txt" download>
+						<ResumeButton />
+					</a>
 				</div>
 			</div>
 		</motion.div>

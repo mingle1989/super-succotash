@@ -29,16 +29,18 @@ const Hero = () => {
 				<div>
 					<motion.h2
 						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
+						whileInView={{ opacity: 1 }}
 						transition={{ duration: 1.5 }}
+						viewport={{ once: true }}
 						className="text-base lg:text-xl uppercase text-white pb-5 tracking-[10px] text-center font-bold"
 					>
 						Full stack developer
 					</motion.h2>
 					<motion.h1
 						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
+						whileInView={{ opacity: 1 }}
 						transition={{ duration: 1.75 }}
+						viewport={{ once: true }}
 						className="text-2xl md:text-4xl lg:text-6xl font-bold px-10"
 					>
 						<span className="mr-3 text__gradient">{text}</span>
@@ -47,17 +49,18 @@ const Hero = () => {
 
 					<div className="pt-8 mr-5">
 						<Link to="works" spy={true}>
-							<Buttons.Button1 />
+							<Buttons.RecentWork />
 						</Link>
 						<Link to="experience" spy={true}>
-							<Buttons.Button2 />
+							<Buttons.ExperienceButton />
 						</Link>
 					</div>
 
 					<motion.img
 						initial={{ opacity: 0 }}
-						animate={{ opacity: 1 }}
+						whileInView={{ opacity: 1 }}
 						transition={{ duration: 1.5 }}
+						viewport={{ once: true }}
 						className="relative mt-5 w-[376px] h-[319px] mx-auto object-fill hero__img"
 						src={images.Server}
 						alt="servers"

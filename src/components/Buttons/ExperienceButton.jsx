@@ -5,7 +5,7 @@ import { FaHistory } from 'react-icons/fa';
 // Buttons Stylesheet
 import '../../styles/Buttons.css';
 
-const Button2 = () => {
+const ExperienceButton = () => {
 	return (
 		<button>
 			<div className="button button-2 flex items-center justify-center">
@@ -16,4 +16,4 @@ const Button2 = () => {
 	);
 };
 
-export default Button2;
+export default ExperienceButton;

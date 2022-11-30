@@ -5,7 +5,7 @@ import { FaDownload } from 'react-icons/fa';
 // Buttons Stylesheet
 import '../../styles/Buttons.css';
 
-const Button3 = () => {
+const ResumeButton = () => {
 	return (
 		<button>
 			<div className="button-3 resume__btn flex items-center justify-center">
@@ -16,4 +16,4 @@ const Button3 = () => {
 	);
 };
 
-export default Button3;
+export default ResumeButton;
