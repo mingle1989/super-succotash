@@ -43,6 +43,12 @@ const MobileNavbar = () => {
 					</li>
 
 					<li className="nav__item__mobile">
+						<Link to="works" className="nav__link__mobile" spy={true}>
+							<Icons.FaCode />
+						</Link>
+					</li>
+
+					<li className="nav__item__mobile">
 						<Link to="experience" className="nav__link__mobile" spy={true}>
 							<Icons.FaHistory />
 						</Link>
@@ -51,12 +57,6 @@ const MobileNavbar = () => {
 					<li className="nav__item__mobile">
 						<Link to="skills" className="nav__link__mobile" spy={true}>
 							<Icons.AiOutlineCoffee />
-						</Link>
-					</li>
-
-					<li className="nav__item__mobile">
-						<Link to="works" className="nav__link__mobile" spy={true}>
-							<Icons.FaCode />
 						</Link>
 					</li>
 

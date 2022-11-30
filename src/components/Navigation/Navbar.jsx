@@ -64,6 +64,13 @@ const Navbar = () => {
 				</li>
 
 				<li className="nav__item">
+					<Link to="works" spy={true} className="nav__link">
+						<Icons.FaCode />
+						<span className="link__text">Works</span>
+					</Link>
+				</li>
+
+				<li className="nav__item">
 					<Link to="experience" spy={true} className="nav__link">
 						<Icons.FaHistory />
 						<span className="link__text">Experience</span>
@@ -74,13 +81,6 @@ const Navbar = () => {
 					<Link to="skills" spy={true} className="nav__link">
 						<Icons.AiOutlineCoffee />
 						<span className="link__text">Skills</span>
-					</Link>
-				</li>
-
-				<li className="nav__item">
-					<Link to="works" spy={true} className="nav__link">
-						<Icons.FaCode />
-						<span className="link__text">Works</span>
 					</Link>
 				</li>
 
