@@ -38,7 +38,9 @@ const About = () => {
 					alt="about"
 				/>
 				<div className="space-y-4 px-0 md:px-10 md:ml-20 lg:text-left">
-					<h4 className="uppercase underline">My Passion</h4>
+					<h4 className="text-2xl lg:text-4xl font-semibold underline decoration-[#08b57b]">
+						My Passion
+					</h4>
 					<p className="text-lg lg:text-2xl poppins font-bold pb-4 lg:pb-8">
 						I create scalable, performant, responsive websites and mobile apps.
 					</p>

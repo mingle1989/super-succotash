@@ -55,15 +55,15 @@ const MobileNavbar = () => {
 					</li>
 
 					<li className="nav__item__mobile">
-						<Link to="skills" className="nav__link__mobile" spy={true}>
-							<Icons.AiOutlineCoffee />
+						<Link to="contact" className="nav__link__mobile" spy={true}>
+							<Icons.IoIosContact />
 						</Link>
 					</li>
 
 					<li className="nav__item__mobile">
-						<Link to="contact" className="nav__link__mobile" spy={true}>
-							<Icons.IoIosContact />
-						</Link>
+						<a href="#" className="nav__link__mobile">
+							<Icons.MdOutlineSettings />
+						</a>
 					</li>
 				</ul>
 			</motion.nav>

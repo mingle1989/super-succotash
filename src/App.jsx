@@ -12,17 +12,14 @@ function App() {
 			<section id="hero">
 				<Components.Hero />
 			</section>
-			<section id="about">
-				<Components.About />
-			</section>
 			<section id="works">
 				<Components.Works />
 			</section>
 			<section id="experience">
 				<Components.Experience />
 			</section>
-			<section id="skills">
-				<Components.Skills />
+			<section id="about">
+				<Components.About />
 			</section>
 			<section id="contact">
 				<Components.Contact />

@@ -57,13 +57,6 @@ const Navbar = () => {
 				</li>
 
 				<li className="nav__item">
-					<Link to="about" spy={true} className="nav__link">
-						<Icons.AiOutlineInfoCircle />
-						<span className="link__text">About</span>
-					</Link>
-				</li>
-
-				<li className="nav__item">
 					<Link to="works" spy={true} className="nav__link">
 						<Icons.FaCode />
 						<span className="link__text">Works</span>
@@ -78,9 +71,9 @@ const Navbar = () => {
 				</li>
 
 				<li className="nav__item">
-					<Link to="skills" spy={true} className="nav__link">
-						<Icons.AiOutlineCoffee />
-						<span className="link__text">Skills</span>
+					<Link to="about" spy={true} className="nav__link">
+						<Icons.AiOutlineInfoCircle />
+						<span className="link__text">About</span>
 					</Link>
 				</li>
 
@@ -89,6 +82,13 @@ const Navbar = () => {
 						<Icons.IoIosContact />
 						<span className="link__text">Contact</span>
 					</Link>
+				</li>
+
+				<li className="nav__item">
+					<a href="#" className="nav__link">
+						<Icons.MdOutlineSettings />
+						<span className="link__text">Settings</span>
+					</a>
 				</li>
 			</ul>
 		</motion.nav>

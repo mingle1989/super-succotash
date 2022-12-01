@@ -153,7 +153,7 @@ h6 {
 }
 /* Heading Gradients */
 .text__gradient {
-	background: -webkit-linear-gradient(#7c7d7e, #99ffd8);
+	background: -webkit-linear-gradient(#99ffd8, #ffffff);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

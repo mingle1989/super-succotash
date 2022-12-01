@@ -22,6 +22,7 @@ const Hero = () => {
 			initial={{ y: 10, opacity: 0 }}
 			whileInView={{ y: 0, opacity: 1 }}
 			transition={{ duration: 1.5 }}
+			viewport={{ once: true }}
 			className="text-center flex justify-center items-center flex-col h-screen space-y-8 content__margin w-full overflow-hidden"
 		>
 			<div>
@@ -43,7 +44,7 @@ const Hero = () => {
 						viewport={{ once: true }}
 						className="text-2xl md:text-4xl lg:text-6xl font-bold px-10"
 					>
-						<span className="mr-3 text__gradient">{text}</span>
+						<span className="mr-3 text__gradient text-white">{text}</span>
 						<Cursor cursorColor="#08b57b" />
 					</motion.h1>
 

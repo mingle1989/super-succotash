@@ -1,11 +1,12 @@
 // Icons
-import { AiOutlineCoffee, AiOutlineInfoCircle } from 'react-icons/ai';
+import { AiOutlineInfoCircle } from 'react-icons/ai';
 import { FaCode, FaHistory } from 'react-icons/fa';
 import { HiOutlineTerminal } from 'react-icons/hi';
 import { IoIosContact } from 'react-icons/io';
+import { MdOutlineSettings } from 'react-icons/md';
 
 const Icons = {
-	AiOutlineCoffee,
+	MdOutlineSettings,
 	AiOutlineInfoCircle,
 	FaCode,
 	FaHistory,
