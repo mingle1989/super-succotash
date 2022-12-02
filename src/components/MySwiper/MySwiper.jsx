@@ -8,6 +8,8 @@ import { EffectCoverflow, Pagination } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
+// Custom Css
+import '../../styles/Slider.css';
 // Images
 import images from '../../assets/images/index';
 
@@ -32,15 +34,27 @@ const MySwiper = () => {
 		>
 			<SwiperSlide className="work__slide">
 				<h1 className="pb-4">Slide 1</h1>
-				<img src={images.KryptoForest} alt="krypto forest" />
+				<img
+					src={images.KryptoForest}
+					className="w-[376px] h-[319px]"
+					alt="krypto forest"
+				/>
 			</SwiperSlide>
 			<SwiperSlide className="work__slide">
 				<h1 className="pb-4">Slide 2</h1>
-				<img src={images.KryptoForest} alt="krypto forest" />
+				<img
+					src={images.KryptoForest}
+					className="w-[376px] h-[319px]"
+					alt="krypto forest"
+				/>
 			</SwiperSlide>
 			<SwiperSlide className="work__slide">
 				<h1 className="pb-4">Slide 3</h1>
-				<img src={images.KryptoForest} alt="krypto forest" />
+				<img
+					src={images.KryptoForest}
+					className="w-[376px] h-[319px]"
+					alt="krypto forest"
+				/>
 			</SwiperSlide>
 		</Swiper>
 	);
